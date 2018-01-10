@@ -11,6 +11,9 @@
 
     <modules>
         <module>mangguo-service</module>
+        <module>mangguo-dao</module>
+        <module>mangguo-domain</module>
+        <module>mangguo-api</module>
     </modules>
 
     <properties>
