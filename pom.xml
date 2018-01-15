@@ -15,6 +15,7 @@
         <module>mangguo-domain</module>
         <module>mangguo-api</module>
         <module>mangguo-web</module>
+        <module>mangguo-test</module>
     </modules>
 
     <properties>
@@ -40,6 +41,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.2.5</version>
         </dependency>
     </dependencies>
 
